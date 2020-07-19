@@ -1,0 +1,27 @@
+footer {
+    color: white;
+    background: rgba(52, 60, 68, 1);
+    
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    min-height: 10vh;
+    flex-wrap: wrap;
+}
+
+footer h5 {
+    flex: 1 1 40rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
